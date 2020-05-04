@@ -5,6 +5,7 @@ import kotlin.reflect.KClass
 class TelephoneFinder {
 
     fun findAllNumbersFromGivenNumber(number: String): Array<String>? {
+        if(number.toInt() < 0) return null
         val neighbours = hashMapOf<Char, ArrayList<Char>>(
             '1' to arrayListOf('2', '4'),
             '2' to arrayListOf('1', '5', '3'),
