@@ -10,7 +10,7 @@
         <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
+            <option value="/media/DATA/Documents/RSSchool/rs.android-stage1-task3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
